@@ -1,0 +1,42 @@
+.header{
+    background-color: #000080;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.header-row{
+    /* background-color: aquamarine; */
+    flex:1;
+    display: flex;
+}
+
+#header-mid{
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#header-right{
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.header-text{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.header-cashier-name{
+    color: white;
+}

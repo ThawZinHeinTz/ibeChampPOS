@@ -1,0 +1,87 @@
+.cashier-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding:  1rem;
+    gap: 1rem;
+
+}
+
+.cashier-row{
+    display: flex;
+   
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    
+}
+
+.barcode-text,.checkout-payment{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.barcode-button,.checkout-buttons{
+    display: flex;
+    flex-direction: row;
+    gap:0 1rem;
+}
+
+
+.barcode-form input,#checkout-payment-form{
+    border: 1px solid grey;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    text-align: center;
+    
+}
+
+.barcode-form,.checkout-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 1rem;
+    gap: 0.8rem;
+    /* background-color: red; */
+}
+
+.checkout-methods{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 1rem;
+}
+.cartTable-container{
+    padding: 1rem;
+    
+}
+
+table {
+  /* font-family: Arial, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+  /* border: 1px solid #ddd; */
+}
+tr {
+  border-bottom: 1px solid #ccc;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th{
+    font-weight: bold;
+}
